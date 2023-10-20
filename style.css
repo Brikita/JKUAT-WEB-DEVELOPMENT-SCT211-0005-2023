@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+
+html {
+  font-family: "Lexend", sans-serif;
+  background-color: #141414;
+  color: whitesmoke;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.instruction {
+    width: 70%;
+}
+a {
+    text-decoration: none;
+    color: #FFDB24;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  margin: 0.5em;
+  padding: 8px 10px;
+  display: block;
+}
+
+footer {
+    text-align: center;
+}
