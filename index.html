@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Brian Kinyua">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <title>RecipeTube</title>
@@ -9,11 +10,11 @@
   <body>
     <div>
       <nav>
-        <a href="/">RecipeTube</a>
+        <a class="title" href="/">RecipeTube</a>
         <ul>
-          <li>Recipe</li>
-          <li>About</li>
-          <li>Contact Us</li>
+          <li><a href="#instruction">Recipe</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="#form">Contact Us</a></li>
         </ul>
       </nav>
     </div>
@@ -41,7 +42,7 @@
       </section>
       <hr />
       <br>
-      <article class="instruction">
+      <article id="instruction" class="instruction">
         <h2>Instructions</h2>
         <div>
           <ul>
@@ -91,7 +92,7 @@
     </article>
       <hr>
       <br>
-      <fieldset>
+      <fieldset id="form">
         <legend>We value your opinion</legend>
       <form action="">
         <label for="name"></label>
